@@ -1,0 +1,1 @@
+cmd_/home/sagarbike/git/demo/Module.symvers := sed 's/\.ko$$/\.o/' /home/sagarbike/git/demo/modules.order | scripts/mod/modpost -m -a  -o /home/sagarbike/git/demo/Module.symvers -e -i Module.symvers   -T -
